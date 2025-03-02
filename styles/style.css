@@ -1,0 +1,278 @@
+* {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo_image {
+  width: 60px;
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(16, 158, 158);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.navigation ul {
+  display: flex;
+  font-size: 30px;
+}
+
+.nav_li {
+  margin-right: 50px;
+}
+.html {
+  margin: 0 auto;
+  display: block;
+  margin-top: 20px;
+  height: 200px;
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.div {
+  display: flex;
+  justify-content: space-around;
+}
+.div1 {
+  height: 300px;
+  width: 400px;
+  background-color: blue;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.div2 {
+  height: 300px;
+  width: 400px;
+  background-color: rgb(255, 0, 55);
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.div3 {
+  height: 300px;
+  width: 400px;
+  background-color: rgb(155, 112, 32);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.div4 {
+  height: 300px;
+  width: 400px;
+  background-color: rgb(255, 0, 230);
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.div5 {
+  height: 300px;
+  width: 400px;
+  background-color: rgb(13, 50, 69);
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.vid {
+  margin: 0 auto;
+  display: flex;
+  width: 100px;
+  height: 100px;
+  align-items: center;
+  margin-top: 10px;
+  gap: 70px;
+}
+
+.img3 {
+  height: 50px;
+  width: 50px;
+}
+
+.img4 {
+  height: 50px;
+  width: 50px;
+}
+.img5 {
+  height: 50px;
+  width: 50px;
+}
+
+.fa-sharp {
+  color: blue;
+  height: 30px;
+}
+.fa-brands {
+  color: blue;
+  height: 30px;
+  font-size: 30px;
+}
+.divider {
+  width: 2px;
+  height: 30px;
+  background-color: blue;
+  display: inline-block;
+}
+h4 {
+  margin: 0 auto;
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(16, 158, 158);
+  margin-top: 20px;
+}
+
+.wrapper {
+  /* width: 400px; */
+  background-color: pink;
+  font-size: 40px;
+}
+.leaveleave {
+  height: 60px;
+  width: 80px;
+  position: fixed;
+  bottom: 60px;
+  right: 60px;
+  z-index: -2;
+}
+
+b,
+strong {
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+}
+p {
+  text-align: justify;
+  font-size: 20px;
+}
+
+.videoelement {
+  display: flex;
+  justify-content: center;
+}
+.fixed {
+  margin-top: 60px;
+}
+.relative {
+  position: relative;
+  width: 400px;
+  height: 200px;
+  border: 3px solid #73ad21;
+  background-color: blue;
+}
+
+.absolute {
+  position: absolute;
+  top: 80px;
+  left: 0;
+  width: 200px;
+  height: 100px;
+  border: 3px solid #73ad21;
+  background-color: #73ad21;
+}
+.containers {
+  position: relative;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+  font-style: italic;
+  font-variant: inherit;
+  color: green;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  opacity: 0.3;
+}
+
+.conteiner_boxs {
+  background-color: pink;
+  display: flex;
+  justify-content: space-between;
+}
+.boxs {
+  width: 150px;
+  height: 180px;
+  background-color: purple;
+  border: 2px solid black;
+}
+/* .box1 {
+  width: 300px;
+
+  background-color: rgb(23, 102, 19);
+  display: inline-block;
+  padding: 20px;
+}
+.box2 {
+  width: 300px;
+
+  background-color: rgb(38, 19, 102);
+  display: inline-block;
+  padding: 20px;
+}
+.article_image {
+  width: 80px;
+  height: 60px;
+}
+.article_image1 {
+  width: 80px;
+  height: 60px;
+}
+.text {
+  width: 200px;
+}
+.text1 {
+  width: 200px;
+}
+span {
+  border: 2px solid green;
+}
+.img1 {
+  margin: 0 auto;
+}
+h4 {
+  color: hsl(345, 100%, 50%);
+}
+.ball {
+  background-color: rgb(20, 134, 60);
+  height: 100px;
+  width: 100px;
+  display: block;
+}
+.ball1 {
+  background-color: blue;
+  height: 100px;
+  width: 100px;
+  display: block;
+}
+.ball3 {
+  display: flex;
+}
+
+ul {
+  font-size: 30px;
+} */

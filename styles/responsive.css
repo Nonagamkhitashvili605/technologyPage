@@ -1,0 +1,49 @@
+/* 1 ხერხი-ვერტიკალურად ცენტრავს */
+
+/* @media (max-width: 600px) {
+  .conteiner_boxs {
+    background-color: blueviolet;
+    align-items: center;
+    flex-direction: column;
+  } */
+
+/* 2 ხერხი-ჰორიზონტალურად ცენტრავს */
+/* @media (max-width: 600px) {
+  .conteiner_boxs {
+    background-color: blueviolet;
+
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+} */
+
+/* 3 ხერხი-როცა რ დაეტევა მე ვუთითებ პროცენტებს, 2-2 ცამოვიდეს ერთდროულად */
+/* @media (max-width: 600px) {
+  .conteiner_boxs {
+    background-color: blueviolet;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .boxs {
+    width: 60%;
+  }
+} */
+
+@media (max-width: 626px) {
+  .conteiner_boxs {
+    background-color: blueviolet;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .box1 {
+    width: 80%;
+  }
+}
+
+@media (max-width: 400px) {
+  .conteiner_boxs {
+    background-color: rgb(73, 226, 43);
+  }
+}
