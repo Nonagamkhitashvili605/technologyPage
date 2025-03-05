@@ -7,14 +7,14 @@ a {
 }
 
 .logo_image {
-  width: 60px;
+  width: 100px;
 }
 
 header {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  background-color: rgb(16, 158, 158);
+  background-color: rgb(26, 30, 31);
   position: fixed;
   top: 0;
   left: 0;
@@ -28,6 +28,7 @@ header {
 
 .nav_li {
   margin-right: 50px;
+  color: white;
 }
 .html {
   margin: 0 auto;
@@ -109,18 +110,18 @@ header {
 }
 
 .fa-sharp {
-  color: blue;
+  color: white;
   height: 30px;
 }
 .fa-brands {
-  color: blue;
+  color: white;
   height: 30px;
   font-size: 30px;
 }
 .divider {
   width: 2px;
   height: 30px;
-  background-color: blue;
+  background-color: white;
   display: inline-block;
 }
 h4 {
@@ -131,7 +132,7 @@ footer {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  background-color: rgb(16, 158, 158);
+  background-color: rgb(26, 30, 31);
   margin-top: 20px;
 }
 
@@ -200,7 +201,7 @@ p {
   font-size: 50px;
   font-style: italic;
   font-variant: inherit;
-  color: green;
+  color: black;
 }
 
 img {
