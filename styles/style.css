@@ -30,6 +30,13 @@ header {
   margin-right: 50px;
   color: white;
 }
+
+.burger {
+  width: 50px;
+  height: 30px;
+  color: white;
+  display: none;
+}
 .html {
   margin: 0 auto;
   display: block;
@@ -221,6 +228,7 @@ img {
   background-color: purple;
   border: 2px solid black;
 }
+
 /* .box1 {
   width: 300px;
 

@@ -17,20 +17,25 @@
   }
 } */
 
-/* 3 ხერხი-როცა რ დაეტევა მე ვუთითებ პროცენტებს, 2-2 ცამოვიდეს ერთდროულად */
+/* 3 ხერხი-როცა არ დაეტევა მე ვუთითებ პროცენტებს, 2-2 ცამოვიდეს ერთდროულად */
+
 /* @media (max-width: 600px) {
   .conteiner_boxs {
     background-color: blueviolet;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 20px;
   }
 
+  .boxs: :nth-child(1) {
+    width: 80%;
+  }
   .boxs {
-    width: 60%;
+    width: 30px;
   }
 } */
 
-@media (max-width: 626px) {
+/* @media (max-width: 626px) {
   .conteiner_boxs {
     background-color: blueviolet;
     flex-wrap: wrap;
@@ -40,10 +45,13 @@
   .box1 {
     width: 80%;
   }
-}
+} */
 
 @media (max-width: 400px) {
-  .conteiner_boxs {
-    background-color: rgb(73, 226, 43);
+  .burger {
+    display: block;
+  }
+  .navigation {
+    display: none;
   }
 }
