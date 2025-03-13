@@ -21,7 +21,6 @@
 
 /* @media (max-width: 600px) {
   .conteiner_boxs {
-    background-color: blueviolet;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
@@ -31,7 +30,7 @@
     width: 80%;
   }
   .boxs {
-    width: 30px;
+    width: 30%;
   }
 } */
 

@@ -51,20 +51,32 @@ header {
   justify-content: space-around;
 }
 .div1 {
-  height: 300px;
-  width: 400px;
-  background-color: blue;
+  height: 400px;
+  width: 800px;
+  background-color: white;
   flex-direction: column;
   align-items: center;
   text-align: center;
 }
 .div2 {
-  height: 300px;
-  width: 400px;
-  background-color: rgb(255, 0, 55);
+  height: 400px;
+  width: 800px;
+  background-color: white;
   flex-direction: column;
   align-items: center;
   text-align: center;
+}
+h2 {
+  color: black;
+  font-size: 40px;
+  font-variant: inherit;
+  font-weight: 200;
+}
+h3 {
+  color: black;
+  font-size: 40px;
+  font-variant: inherit;
+  font-weight: 200;
 }
 .div3 {
   height: 300px;
@@ -84,14 +96,7 @@ header {
   align-items: center;
   text-align: center;
 }
-.div5 {
-  height: 300px;
-  width: 400px;
-  background-color: rgb(13, 50, 69);
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
+
 .vid {
   margin: 0 auto;
   display: flex;
@@ -101,7 +106,16 @@ header {
   margin-top: 10px;
   gap: 70px;
 }
-
+.img1 {
+  height: 300px;
+  width: 300px;
+  object-fit: contain;
+}
+.img2 {
+  height: 300px;
+  width: 300px;
+  object-fit: contain;
+}
 .img3 {
   height: 50px;
   width: 50px;
@@ -142,7 +156,10 @@ footer {
   background-color: rgb(26, 30, 31);
   margin-top: 20px;
 }
-
+.number {
+  font-style: italic;
+  background-color: white;
+}
 .wrapper {
   /* width: 400px; */
   background-color: pink;
@@ -216,18 +233,34 @@ img {
   height: auto;
   opacity: 0.3;
 }
-
-.conteiner_boxs {
-  background-color: pink;
+.title {
+  position: relative;
+  height: 200px;
+  background-color: black;
+  width: 100%;
+  font-size: 70px;
+}
+.titles {
+  position: absolute;
+  color: white;
+  font-size: 30px;
+  font-weight: 100px;
+  text-align: center;
+  top: 40%;
+  width: 100%;
+}
+/* .conteiner_boxs {
+  margin-top: 80px;
+  background-color: grey;
   display: flex;
   justify-content: space-between;
 }
 .boxs {
   width: 150px;
   height: 180px;
-  background-color: purple;
+  background-color: white;
   border: 2px solid black;
-}
+} */
 
 /* .box1 {
   width: 300px;
