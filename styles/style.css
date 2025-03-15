@@ -53,6 +53,27 @@ header {
   display: block;
   opacity: 50%;
 } */
+a {
+  position: relative;
+  text-decoration: none;
+  color: black;
+}
+
+a::after {
+  content: "";
+  height: 2px;
+  width: 0%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: red;
+  display: block;
+}
+
+a:hover::after {
+  width: 100%;
+  transition: width 0.3s ease-in-out;
+}
 
 .html {
   margin: 0 auto;
