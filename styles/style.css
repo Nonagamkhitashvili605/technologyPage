@@ -53,9 +53,11 @@ header {
   display: block;
   opacity: 50%;
 } */
+
+/* header hover */
 a {
   position: relative;
-  text-decoration: none;
+  text-decoration: none !important;
   color: black;
 }
 
@@ -66,14 +68,35 @@ a::after {
   position: absolute;
   bottom: 0;
   left: 0;
-  background-color: red;
+  background-color: white;
   display: block;
+  transition: width 2s linear 1s;
 }
 
 a:hover::after {
   width: 100%;
   transition: width 0.3s ease-in-out;
 }
+
+/* nav_li {
+  position: relative;
+}
+
+nav_li::after {
+  content: "";
+  height: 2px;
+  width: 0%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  display: block;
+  transition: width 2s linear 1s;
+}
+nav_li:hover::after {
+  width: 100%;
+  transition: width 0.3s ease-in-out;
+} */
 
 .html {
   margin: 0 auto;
@@ -289,6 +312,15 @@ img {
   text-align: center;
   top: 40%;
   width: 100%;
+}
+
+/* fonts */
+
+.geo-abs {
+  font-family: "ALK Life", sans-serif;
+}
+.geo-rel {
+  font-family: "ALKDots", sans-serif;
 }
 /* .conteiner_boxs {
   margin-top: 80px;
