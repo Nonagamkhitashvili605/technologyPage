@@ -1,3 +1,6 @@
+@import url("//cdn.web-fonts.ge/fonts/bpg-glaho-bold/css/bpg-glaho-bold.min.css");
+@import url("//cdn.web-fonts.ge/fonts/alkdots/css/alkdots.min.css");
+
 * {
   margin: 0;
 }
@@ -77,26 +80,6 @@ a:hover::after {
   width: 100%;
   transition: width 0.3s ease-in-out;
 }
-
-/* nav_li {
-  position: relative;
-}
-
-nav_li::after {
-  content: "";
-  height: 2px;
-  width: 0%;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  background-color: white;
-  display: block;
-  transition: width 2s linear 1s;
-}
-nav_li:hover::after {
-  width: 100%;
-  transition: width 0.3s ease-in-out;
-} */
 
 .html {
   margin: 0 auto;
@@ -219,6 +202,7 @@ footer {
   align-items: center;
   background-color: grey;
   margin-top: 20px;
+  margin-bottom: 5px;
 }
 .number {
   font-style: italic;
@@ -321,6 +305,21 @@ img {
 }
 .geo-rel {
   font-family: "ALKDots", sans-serif;
+}
+.bpg bold {
+  font-family: "BPG Glaho Bold", sans-serif;
+}
+.ALKDots {
+  font-family: "ALKDots", sans-serif;
+}
+/* fonts */
+
+input:focus {
+  outline: none;
+  border-bottom: 3px solid grey;
+}
+.box1 {
+  margin-bottom: 15px;
 }
 /* .conteiner_boxs {
   margin-top: 80px;
