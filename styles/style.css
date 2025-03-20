@@ -503,4 +503,5 @@ ul {
   max-width: 500px; /* რომ არ იყოს ძალიან განიერი */
   height: 400px;
   border: 0;
+  margin-bottom: 10px;
 }
