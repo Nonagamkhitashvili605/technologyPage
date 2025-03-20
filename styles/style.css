@@ -401,13 +401,36 @@ input:focus {
   display: block;
   margin: 0 auto;
 }
-/* .conteiner_boxs {
-  margin-top: 80px;
-  background-color: grey;
+.container_about {
+  margin-top: 140px;
+  background-color: rgb(76, 74, 74);
   display: flex;
-  justify-content: space-between;
+  justify-content: center; /* ელემენტები ცენტრში */
+  align-items: center; /* ვერტიკალურად ცენტრში */
+  padding: 20px;
 }
-.boxs {
+
+#ul_list {
+  display: flex; /* ელემენტები გვერდიგვერდ */
+  gap: 20px; /* დაშორება ელემენტებს შორის */
+  list-style: none; /* წერტილების წაშლა */
+  padding: 0;
+  margin: 0;
+}
+
+#ul_list li {
+  background-color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#ul_list li:hover {
+  background-color: lightgray;
+}
+
+/* .boxs {
   width: 150px;
   height: 180px;
   background-color: white;

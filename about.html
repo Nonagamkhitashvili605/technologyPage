@@ -2,19 +2,72 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/responsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+
     <title>Document</title>
   </head>
   <body>
+    <header>
+      <a class="logo" href="index.html">
+        <img class="logo_image" src="images/logooo.png" alt="leave"
+      /></a>
+
+      <nav class="navigation">
+        <ul>
+          <li>
+            <a class="nav_li" href="index.html" target="_blank">მთავარი </a>
+            <a class="nav_li" href="new.html" target="_blank">სიახლეები</a>
+            <a class="nav_li" href="resourse.html" target="_blank"
+              >სასწავლო რესურსები</a
+            >
+            <a class="nav_li" href="about.html" target="_blank"
+              >ჩვენ შესახებ
+            </a>
+            <a class="nav_li" href="contact.html" target="_blank">კონტაქტი</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <article></article>
     <main>
-      <div class="container" id="container">
+      <section class="fixed"></section>
+
+      <div class="container_about" id="container">
         <ul id="ul_list"></ul>
       </div>
 
       <button id="loadprev">prev</button>
       <button id="loadnext">next</button>
+
+      <button class="btn"><i class="fa fa-home"></i></button>
+      <button class="btn"><i class="fa fa-bars"></i></button>
+      <button class="btn"><i class="fa fa-trash"></i></button>
+      <button class="btn"><i class="fa fa-close"></i></button>
+      <button class="btn"><i class="fa fa-folder"></i></button>
     </main>
-    <footer></footer>
+
+    <footer>
+      <ul class="footer">
+        <li>
+          <p>&copy;2025 ყველა უფლება დაცულია</p>
+        </li>
+      </ul>
+
+      <i class="fa-brands fa-facebook-f"></i>
+      <div class="divider"></div>
+      <i class="fa-brands fa-facebook-messenger"></i>
+      <div class="divider"></div>
+      <i class="fa-brands fa-twitter"></i>
+      <div class="divider"></div>
+      <i class="fa-brands fa-instagram"></i>
+    </footer>
     <script src="script.js"></script>
   </body>
 </html>
