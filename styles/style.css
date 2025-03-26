@@ -349,10 +349,6 @@ img {
   font-style: initial;
 }
 /* forma */
-.contacts {
-  height: 400px;
-  width: 800px;
-}
 
 input:focus {
   outline: none;
@@ -360,6 +356,7 @@ input:focus {
 }
 
 .form {
+  padding-top: 20px;
   height: 400px;
   width: 800px;
   background-color: #737363;
@@ -374,68 +371,100 @@ input:focus {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  margin-top: 0px;
+  border: none;
 }
 .name {
-  margin-top: 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
   display: block;
   display: wrap;
   font-size: 20px;
+  border: none;
 }
 .input_element[type="text"] {
   color: grey;
   font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: none;
 }
 .name__box {
   margin-top: 10px;
   display: block;
-  font-size: 30px;
+  font-size: 15px;
+  border: none;
 }
 .surname {
   margin-top: 10px;
   display: block;
-  font-size: 30px;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: none;
 }
 .surname__box {
   margin-top: 10px;
   display: block;
-  font-size: 30px;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: none;
 }
 
 .mail {
   margin-top: 10px;
   display: block;
-  font-size: 30px;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: none;
 }
 .mail__box {
   margin-top: 10px;
   display: block;
-  font-size: 30px;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: none;
 }
 .phone {
-  margin-top: 10px;
   display: block;
-  font-size: 30px;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: none;
 }
 .phone__box {
-  margin-top: 10px;
   display: block;
-  font-size: 30px;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: none;
 }
 
 .submit {
-  margin-top: 10px;
   display: block;
   font-size: 30px;
   border-radius: 25px;
   border: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: none;
 }
 .submit__text {
   margin-top: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: none;
 }
 .telnum {
   margin-top: 20px;
   display: block;
   margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: none;
 }
 
 /* სერვერიდან ინფორმაციის წამორება */
