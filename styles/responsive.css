@@ -54,3 +54,23 @@
     display: none;
   }
 }
+
+@media (max-width: 768px) {
+  .video-container iframe {
+    height: 300px;
+  }
+}
+
+/* სმარტფონების და მცირე ეკრანების ადაპტაცია */
+@media (max-width: 768px) {
+  #ul_list {
+    flex-direction: column; /* ელემენტები განლაგდება ვერტიკალურად */
+    gap: 10px;
+  }
+
+  #loadprev,
+  #loadnext {
+    width: 100%; /* ღილაკები გასაგრძელებლად სიგანეზე */
+    padding: 15px 0;
+  }
+}
