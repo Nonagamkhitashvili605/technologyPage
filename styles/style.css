@@ -384,7 +384,7 @@ input:focus {
 }
 
 .form {
-  padding-top: 20px;
+  padding-top: 10px;
   height: 400px;
   width: 800px;
   background-color: #dadad2;
@@ -416,6 +416,7 @@ input:focus {
   display: block;
   font-size: 15px;
   border: none;
+  margin-bottom: 10px;
 }
 .surname {
   margin-top: 10px;
@@ -494,12 +495,14 @@ input:focus {
 .container {
   max-width: 100%;
   width: 100%;
-  background-color: rgb(215, 215, 233);
+  background-color: rgb(202, 202, 213);
   display: flex;
   justify-content: center;
-  margin-top: 120px;
-  margin-left: 30px;
+  margin-top: 100px;
+  /* margin-left: 30px;
   margin-right: 30px;
+  margin-bottom: 20px 
+   */
 }
 
 #ul_list {
@@ -519,6 +522,7 @@ input:focus {
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
 
 #ul_list li:hover {
@@ -527,7 +531,6 @@ input:focus {
 
 #loadprev,
 #loadnext {
-  font-family: "ALK Life", sans-serif;
   font-size: 20px;
   font-weight: 1000;
   color: rgb(139, 12, 12);
@@ -537,6 +540,7 @@ input:focus {
   background-color: white;
   cursor: pointer;
   transition: 0.3s;
+  
 }
 
 #loadprev:hover,
@@ -550,6 +554,7 @@ input:focus {
 #ul_list {
   flex-direction: row;
   gap: 10px;
+  
 }
 
 #loadprev,
@@ -855,4 +860,7 @@ footer {
 }
 
 
+body {
+  overflow-x: hidden;
+}
 
