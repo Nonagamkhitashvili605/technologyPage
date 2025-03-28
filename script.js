@@ -626,8 +626,15 @@ function getUsers(page) {
       responseData.data.forEach(function (item) {
         let li = document.createElement("li");
         li.textContent = item.email;
+        li.style.listStyle = "none";
         let image = document.createElement("img");
         image.src = item.avatar;
+        image.style.display = "block";
+        image.style.margin = "0 auto";
+        image.style.width = "150px";
+        image.style.height = "150px";
+        // let img_div = document.createElement("div");
+        // image.classList.add("online_image");
         fragment.appendChild(li);
         fragment.appendChild(image);
       });
