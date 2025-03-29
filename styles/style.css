@@ -53,7 +53,7 @@ header {
 }
 .bg_image1 {
   margin-top: 110px;
-  background-image: url("https://www.rawatedu.com/assets/photo/blogs/featured/blogs_featured_8638_1698744015.jpeg");
+  background-image: url("https://www.stemschool.com/img/article/rich-history-of-stem-education-in-the-united-states.webp");
   height: 400px;
   background-position: center;
   background-repeat: no-repeat;
@@ -227,7 +227,8 @@ strong {
 
 .container {
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: space-around; 
   gap: 40px;
 }
 
@@ -507,6 +508,7 @@ input:focus {
 
 #ul_list {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
   list-style: none;
   padding: 0;
@@ -552,7 +554,8 @@ input:focus {
 }
 
 #ul_list {
-  flex-direction: row;
+    display: flex;
+  flex-wrap: wrap;
   gap: 10px;
   
 }
