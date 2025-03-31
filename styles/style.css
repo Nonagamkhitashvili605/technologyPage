@@ -262,7 +262,9 @@ h3{
   font-size: 20px;
   color: black;
   font-weight: 50px;
-  font-style: italic
+  font-style: italic;
+  margin-top: 20px;
+
 }
 /* .videoelement {
   display: flex;
@@ -351,6 +353,7 @@ img {
   font-family: "BPG Phone Sans Bold", sans-serif;
   font-size: 20px;
   color: #201e1e;
+  margin-top: 10px;
 }
 .geo-bolditalic {
   font-family: "Arial GEO BoldItalic", sans-serif;
